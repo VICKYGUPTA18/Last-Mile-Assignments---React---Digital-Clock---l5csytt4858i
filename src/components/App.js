@@ -14,7 +14,7 @@ const App = () => {
     return () => {
       clearInterval(timer);
     };
-  }, []);
+  }, [date]);
   return (
     <div id="main">
       <div className="date-time">{date}</div>
